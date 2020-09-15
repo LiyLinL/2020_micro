@@ -14,7 +14,7 @@
 ##### DB: Oracle、SQL Server、Hana
 
 ---
-有興趣的同學，希望可以一起交流一下
+有興趣的同學，可以一起交流一下
 ---
 
 ## Spring boot

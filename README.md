@@ -10,9 +10,9 @@
 ##### 職稱: 軟體工程師
 
 ##### 使用程式語言: 
-   *Java (Spring Boot)
-    *JS
-     *SAPUI5
+   * Java (Spring Boot)
+    * JS
+     * SAPUI5
 
 ##### DB: Oracle、SQL Server、Hana
 

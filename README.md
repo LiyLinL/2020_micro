@@ -22,3 +22,22 @@
 ## [Spring boot](https://spring.io/projects/spring-boot)
 ### some test program [generator](https://github.com/LiyLinL/JavaWork/tree/master/generator)
 ---
+```java
+@RunWith(SpringRunner.class)
+@SpringBootTest
+@EnableAsync
+public class GeneratorApplicationTests {
+    @Test
+    public void jms() throws InterruptedException, IOException {
+        Jackson jackson = new Jackson();
+        jackson.setAlways("A");
+        jackson.setSome("B");
+        ObjectMapper objectMapper = new ObjectMapper();
+        String json = objectMapper.writeValueAsString(jackson);
+
+        Object obj = jmsService.sendMessage("Q", json);
+        jackson = objectMapper.readValue((String) obj, Jackson.class);
+        System.out.println(jackson.getAlways());
+    }
+}
+```

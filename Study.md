@@ -51,3 +51,12 @@ print s
 No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
 ```
+***
+- [ ] 代辦事項
+- [x] 已完成事項
+***
+Use the `printf()` function.
+***
+:alien:
+:sweat_drops:
+:sunny:
